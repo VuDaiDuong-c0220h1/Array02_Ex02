@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="ex1">
+    <h2>Tính bình phương của một số</h2>
+    Nhập số: <input type="number" id="value01" oninput="showMess01()">
+    <p>Kết quả là <span id="result01"></span> </p>
+</div>
+<hr/>
+<div class="ex2">
+    <h2>Tính diện tích và chu vi hình tròn</h2>
+    Nhập bán kính: <input type="number" id="value02" oninput="showMess02()">
+    <p id="result02"></p>
+</div>
+<hr/>
+<div class="ex3">
+    <h2>Tính giai thừa</h2>
+    Nhập số nguyên: <input type="number" id="value03" oninput="showMess03()">
+    <p>Kết quả là <span id="result03"></span> </p>
+</div>
+<hr/>
+<div class="ex4">
+    Kiểm tra kiểu dữ liệu <input type="text" id="value04">
+    <button onclick="showMess04()">Kiểm tra</button>
+    <p>Ký tự này là <span id="result04"></span> </p>
+</div>
+<hr/>
+<div class="ex5">
+    <h2>Kiểm tra số nhỏ nhất</h2>
+    Số thứ nhất <input type="number" id="value05"> <br/>
+    Số thứ hai <input type="number" id="value06"> <br/>
+    Số thứ ba <input type="number" id="value07"> <br/>
+    <button onclick="showMess05()">Kiểm tra</button>
+    <p>Số nhỏ nhất là: <span id="result05"></span></p>
+</div>
+<hr/>
+<div class="ex6">
+    <h2>Kiểm tra số nguyên dương</h2>
+    Nhập số: <input type="number" id="value08"> <br/>
+    <button onclick="showMess06()">Kiểm tra</button>
+    <p id="result06"></p>
+</div>
+<hr/>
+<div class="ex7">
+    <h2>Đổi chỗ 2 số nguyên</h2>
+    Nhập 2 số nguyên
+    <input type="number" id="value09"> <input type="number" id="value10">
+    <button onclick="showMess07()">Đổi chỗ</button>
+</div>
+<hr/>
+<div class="ex8">
+    <h2>Đảo ngược mảng</h2>
+    <button onclick="showMess08()">Add Random</button>
+    <button onclick="convert()">Đảo ngược</button>
+    <p id="result08"></p>
+</div>
+<hr/>
+<div class="ex9">
+    <h2>Kiểm tra ký tự trong mảng</h2>
+    Nhập chuỗi ký tự, cách nhau bằng dấu cách:
+    <input type="text" id="value11">
+    Kiểm tra ký tự:
+    <input type="text" id="value12">
+    <button onclick="showMess09()">Kiểm tra</button>
+    <p>Số lần xuất hiện của ký tự: <span id="result09"></span></p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
